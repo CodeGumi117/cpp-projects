@@ -12,7 +12,7 @@ void intro() {
 }
 int main() {
 	intro();
-	string cmds[5]
+	const char* cmds[5]
 	{"help > prints this message", 
 	 "credits > info about the authors of the os", 
 	 "systeminfo > info about your system", 
